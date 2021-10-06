@@ -1,5 +1,5 @@
 #Yet Another Markup Lenguage, TAB en la nueva linea
-name: Control issues
+name: issues control
 on: 
   issues:
     types: opened
