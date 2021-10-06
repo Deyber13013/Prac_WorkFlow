@@ -1,0 +1,8 @@
+#Yet Another Markup Lenguage, TAB en la nueva linea
+name: Control issues
+on: [issues]
+jobs: 
+  alabrir:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "caso| abierto #{{github.event.issue.number }}"
