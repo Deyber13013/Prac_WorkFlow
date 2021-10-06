@@ -1,0 +1,8 @@
+name: versiones
+jobs:
+  runs-on: ubuntu-latest
+  strategy:
+    matrix:
+      node:[6,8,10]
+    steps:
+      - run: echo "caso ${{ matrix.node }}"
