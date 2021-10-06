@@ -1,7 +1,8 @@
 on: issue_comment
 jobs:
-  issue: Issue comment
-  if: ${{ !github.evenet.issue.pull_request }}
-  runs-on: ubunto-latest
-  steps:
-    - run: echo " comment on issue ${{ github.event.issue.number }}"
+  issue_commented: 
+    name: Issue comment
+    if: ${{ !github.evenet.issue.pull_request }}
+    runs-on: ubunto-latest
+    steps:
+      - run: echo " comment on issue ${{ github.event.issue.number }}"
