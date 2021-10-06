@@ -1,0 +1,11 @@
+name: issues control
+on: push 
+jobs: 
+  Tarea1:
+   name: tarea 1
+   runs-on: ubuntu-latest
+   steps:
+      - name: create Github Issue
+        uses: DanielBarnes/create-issue-action@v1
+        with:
+          title: " Push asociado "
