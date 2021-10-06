@@ -7,4 +7,4 @@ jobs:
   alabrir:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "caso| abierto #${{ github.event.issue.number }}"
+      - run: echo "casos | abierto #${{ github.event.issue.number }}"
