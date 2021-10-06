@@ -2,7 +2,7 @@
 name: issues control
 on: 
   issues:
-    types: opened
+    types: closed
 jobs: 
   Alabrir:
     runs-on: ubuntu-latest
