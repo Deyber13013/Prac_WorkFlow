@@ -1,8 +1,10 @@
-name: versiones
+name: Casos
+on:
 jobs:
-  runs-on: ubuntu-latest
-  strategy:
-    matrix:
-      node:[6,8,10]
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node: [6,8,10]
     steps:
       - run: echo "caso ${{ matrix.node }}"
