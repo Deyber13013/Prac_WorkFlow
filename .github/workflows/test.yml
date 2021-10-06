@@ -6,6 +6,6 @@ jobs:
    runs-on: ubuntu-latest
    steps:
       - name: create Github Issue
-        uses: DanielBarnes/create-issue-action@v1
+        uses: Deyber13013/create-issue-action@v1
         with:
           title: " Push asociado "
