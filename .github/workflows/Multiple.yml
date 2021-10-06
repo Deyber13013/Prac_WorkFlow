@@ -1,0 +1,15 @@
+name: MultipleTareas
+jobs:
+  setup: 
+    runs-on: ubuntu-latest
+    sterps:
+      - run: echo " paso 1"
+   build:
+    needs: setup
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo " paso 2"
+   test:
+   
+      
+      
