@@ -2,7 +2,7 @@ name: MultipleTareas
 jobs:
   setup: 
     runs-on: ubuntu-latest
-    sterps:
+    steps:
       - run: echo " paso 1"
    build:
     needs: setup
